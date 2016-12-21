@@ -11,6 +11,7 @@ public class MyFirstJavaProgram {
 		// START HERE
 Robot rick=new Robot(400,400);
 rick.penDown();
+rick.setPenColor(Color.RED);
 int sides=0;
 while(sides<10){
 rick.move(400);
