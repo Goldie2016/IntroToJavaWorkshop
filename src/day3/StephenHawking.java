@@ -10,7 +10,7 @@ public class StephenHawking {
 	public static void main(String[] args) {
 		int x = 0;
 			String sentence = JOptionPane.showInputDialog("Please type a sentence.");
-		while (x < 3) {
+		while (x < 1) {
 			speak(sentence);
 			x = x + 1;
 		}
